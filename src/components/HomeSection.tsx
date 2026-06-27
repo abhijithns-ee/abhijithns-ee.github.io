@@ -56,6 +56,7 @@ export default function HomeSection({ onNavigate }: HomeSectionProps) {
           className="relative inline-block mb-6"
         >
           {/* Elegant Circular Avatar frame representing the Artistic flair */}
+           </div>
            <img
            src="/profile.jpg"
            alt="Abhijith N S Profile"
