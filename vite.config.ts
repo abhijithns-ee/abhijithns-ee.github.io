@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // Fixed: Changed from "/abhijithns-ee.github.io/" to "/"
-    base: "/", 
+    base: "/abhijithns-ee.github.io/", 
     
     plugins: [react(), tailwindcss()],
     resolve: {
