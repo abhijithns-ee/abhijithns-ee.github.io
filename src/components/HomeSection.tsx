@@ -57,13 +57,12 @@ export default function HomeSection({ onNavigate }: HomeSectionProps) {
         >
           {/* Elegant Circular Avatar frame representing the Artistic flair */}
           <div className="w-24 h-24 rounded-full border-2 border-white/20 p-1.5 shadow-2xl">
-            <img
-              src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=300&auto=format&fit=crop&q=80"
-              alt="Abhijith N S Profile"
-              className="w-full h-full object-cover rounded-full"
-              referrerPolicy="no-referrer"
-            />
-          </div>
+  <img
+    src="/profile.jpg" 
+    alt="Abhijith N S Profile"
+    className="w-full h-full object-cover rounded-full"
+  />
+</div>
           <div className="absolute -bottom-1 -right-1 w-7 h-7 bg-white border border-slate-950 rounded-full flex items-center justify-center shadow-lg">
             <DynamicIcon name="Sparkles" size={12} className="text-blue-600" />
           </div>
