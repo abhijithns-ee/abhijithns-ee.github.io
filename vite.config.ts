@@ -5,8 +5,13 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+<<<<<<< HEAD
     // Add this base line. Replace 'your-repo-name' with your actual GitHub repository name.
      base: "/",
+=======
+    // Fixed: Changed from "/abhijithns-ee.github.io/" to "/"
+    base: "/",
+>>>>>>> dd0aff7979941a5edfcc6e2e748cc6a6d04597f1
     
     plugins: [react(), tailwindcss()],
     resolve: {

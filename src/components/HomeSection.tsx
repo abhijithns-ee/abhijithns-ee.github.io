@@ -57,9 +57,15 @@ export default function HomeSection({ onNavigate }: HomeSectionProps) {
         >
           {/* Elegant Circular Avatar frame representing the Artistic flair */}
           <div className="w-24 h-24 rounded-full border-2 border-white/20 p-1.5 shadow-2xl">
+<<<<<<< HEAD
             <img
             src="/profile.jpg"
             alt="Abhijith N S Profile"
+=======
+           <img
+           src="/profile.jpg"
+           alt="Abhijith N S Profile"
+>>>>>>> dd0aff7979941a5edfcc6e2e748cc6a6d04597f1
            className="w-full h-full object-cover rounded-full"
           />
           </div>
