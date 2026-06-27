@@ -56,14 +56,15 @@ export default function HomeSection({ onNavigate }: HomeSectionProps) {
           className="relative inline-block mb-6"
         >
           {/* Elegant Circular Avatar frame representing the Artistic flair */}
-          <div className="w-24 h-24 rounded-full border-2 border-white/20 p-1.5 shadow-2xl">
+{/* Updated to w-36 h-36 (was w-24 h-24) */}
+<div className="w-36 h-36 rounded-full border-2 border-white/20 p-1.5 shadow-2xl">
   <img
-    src="/profile.jpg" 
+    src="/profile.jpg"
     alt="Abhijith N S Profile"
     className="w-full h-full object-cover rounded-full"
   />
 </div>
-          <div className="absolute -bottom-1 -right-1 w-7 h-7 bg-white border border-slate-950 rounded-full flex items-center justify-center shadow-lg">
+          <div className="absolute -bottom-1 -right-1 w-10 h-10 bg-white border border-slate-950 rounded-full flex items-center justify-center shadow-lg">
             <DynamicIcon name="Sparkles" size={12} className="text-blue-600" />
           </div>
         </motion.div>
