@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // Add this base line. Replace 'your-repo-name' with your actual GitHub repository name.
-    base: "/abhijithns-ee.github.io/", 
+     base: "/",
     
     plugins: [react(), tailwindcss()],
     resolve: {
