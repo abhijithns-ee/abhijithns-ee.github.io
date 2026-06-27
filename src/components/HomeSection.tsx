@@ -156,7 +156,7 @@ export default function HomeSection({ onNavigate }: HomeSectionProps) {
             </div>
             <div className="min-w-0 flex-1">
               <span className="font-mono text-[8px] text-slate-500 uppercase tracking-wider block mb-0.5">Primary Email</span>
-              <a href="mailto:abhijithnsee@gmail.com" className="text-xs md:text-sm font-mono text-slate-200 hover:text-blue-400 transition-colors break-all block">
+              <a href="mailto:abhijithns.ee@gmail.com" className="text-xs md:text-sm font-mono text-slate-200 hover:text-blue-400 transition-colors break-all block">
                 abhijithnsee@gmail.com
               </a>
             </div>
