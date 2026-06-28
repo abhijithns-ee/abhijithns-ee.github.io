@@ -24,12 +24,6 @@ export const INTERNSHIPS: Internship[] = [
       { label: 'Sectors Engaged', value: '4 Major' }
     ],
     projectLink: 'https://www.sfotechnologies.net',
-    recommendation: {
-      author: 'E. J. Mathew',
-      role: 'Senior Lead Product Engineer, SFO Tech',
-      text: 'Abhijith showed a strong technical foundation and great diligence in understanding product design lifecycles. His supportive engineering workflows in our high-reliability manufacturing division were highly commendable.',
-      avatarUrl: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80'
-    }
   },
   {
     id: 'kseb-substation',
@@ -54,12 +48,6 @@ export const INTERNSHIPS: Internship[] = [
       { label: 'Grid Latency Studied', value: 'Real-time' }
     ],
     projectLink: 'https://www.kseb.in',
-    recommendation: {
-      author: 'Er. Rajesh Kumar',
-      role: 'Executive Engineer, Kuravilangad 400KV GIS',
-      text: 'An energetic learner who was exceptionally inquisitive about modern gas insulated switchgears and substation layout details. Abhijith carries a solid grasp of power system engineering.',
-      avatarUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80'
-    }
   },
   {
     id: 'kel-engineering',
@@ -84,11 +72,5 @@ export const INTERNSHIPS: Internship[] = [
       { label: 'Assembly Line Speed', value: 'Optimized' }
     ],
     projectLink: 'https://www.kelandallied.com',
-    recommendation: {
-      author: 'P. Radhakrishnan',
-      role: 'Quality & Production Manager, KEL',
-      text: 'Abhijith was trained extensively on our transformer winding floor. He demonstrated a commendable attitude towards industrial standards and safety engineering guidelines.',
-      avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80'
-    }
   }
 ];
