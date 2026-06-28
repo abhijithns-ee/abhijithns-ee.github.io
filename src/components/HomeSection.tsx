@@ -31,6 +31,14 @@ export default function HomeSection({ onNavigate }: HomeSectionProps) {
       description: 'Completed higher secondary education with major coursework in physics, chemistry, biology, and mathematics, laying a strong analytical and scientific groundwork for engineering studies.',
       highlights: ['Higher Secondary', 'Bio Science Major', 'Analytical Physics & Chemistry']
     }
+    {
+      institution: 'Govt.Technical High School Elanji',
+      period: '2017 — 2020',
+      degree: 'SSLC',
+      logo: 'Award',
+      description: 'Electrical Equipment Maintenance & Wiring , NSQF in Electronics.',
+      highlights: ['Higher Secondary', 'Bio Science Major', 'Analytical Physics & Chemistry']
+    }
   ];
 
   return (
