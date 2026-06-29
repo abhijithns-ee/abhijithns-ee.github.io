@@ -71,7 +71,7 @@ export default function App() {
     }),
   };
 
- // Direction matrix to choose slide direction depending on tab sequence
+  // Direction matrix to choose slide direction depending on tab sequence
   const getDirection = () => {
     const order = { home: 0, internships: 1, credentials: 2, achievements: 3, contact: 4 };
     // Just a placeholder direction value
@@ -134,7 +134,8 @@ export default function App() {
               <CredentialsSection />
             </motion.div>
           )}
-           {activeSection === 'achievements' && (
+
+          {activeSection === 'achievements' && (
             <motion.div
               key="achievements"
               custom={getDirection()}
