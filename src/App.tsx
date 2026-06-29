@@ -5,11 +5,12 @@ import Navigation from './components/Navigation';
 import HomeSection from './components/HomeSection';
 import InternshipsSection from './components/InternshipsSection';
 import CredentialsSection from './components/CredentialsSection';
+import AchievementsSection from './components/AchievementsSection';
 import ContactSection from './components/ContactSection';
 import { ContactMessage } from './types';
 
 export default function App() {
-  const [activeSection, setActiveSection] = useState<'home' | 'internships' | 'credentials' | 'contact'>('home');
+  const [activeSection, setActiveSection] = useState<'home' | 'internships' | 'credentials' | 'achievements' | 'contact'>('home');
   const [savedMessages, setSavedMessages] = useState<ContactMessage[]>([]);
 
   // Load messages from localStorage on mount
@@ -83,9 +84,9 @@ export default function App() {
     }),
   };
 
-  // Direction matrix to choose slide direction depending on tab sequence
+ // Direction matrix to choose slide direction depending on tab sequence
   const getDirection = () => {
-    const order = { home: 0, internships: 1, credentials: 2, contact: 3 };
+    const order = { home: 0, internships: 1, credentials: 2, achievements: 3, contact: 4 };
     // Just a placeholder direction value
     return 1;
   };
@@ -144,6 +145,19 @@ export default function App() {
               className="w-full"
             >
               <CredentialsSection />
+            </motion.div>
+          )}
+           {activeSection === 'achievements' && (
+            <motion.div
+              key="achievements"
+              custom={getDirection()}
+              variants={sectionVariants}
+              initial="initial"
+              animate="animate"
+              exit="exit"
+              className="w-full"
+            >
+              <AchievementsSection />
             </motion.div>
           )}
 
