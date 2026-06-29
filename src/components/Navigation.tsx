@@ -2,16 +2,17 @@ import { motion } from 'motion/react';
 import DynamicIcon from './DynamicIcon';
 
 interface NavigationProps {
-  activeSection: 'home' | 'internships' | 'credentials' | 'contact';
-  setActiveSection: (section: 'home' | 'internships' | 'credentials' | 'contact') => void;
+  activeSection: 'home' | 'internships' | 'credentials' | 'achievements' | 'contact';
+  setActiveSection: (section: 'home' | 'internships' | 'credentials' | 'achievements' | 'contact') => void;
   messageCount: number;
 }
 
 export default function Navigation({ activeSection, setActiveSection, messageCount }: NavigationProps) {
   const navItems = [
-    { id: 'home' as const, label: 'Profile' },
+    { id: 'home' as const, label: 'Resume' },
     { id: 'internships' as const, label: 'Experiences' },
     { id: 'credentials' as const, label: 'Credentials' },
+    { id: 'achievements' as const, label: 'Achievements' },
     { id: 'contact' as const, label: 'Recruiter Desk' },
   ];
 
