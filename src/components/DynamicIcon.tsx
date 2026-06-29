@@ -26,6 +26,15 @@ import {
   Briefcase,
   Award,
   Terminal,
+  Trophy,
+  Zap,
+  GraduationCap,
+  BookOpen,
+  Phone,
+  FileText,
+  Activity,
+  Download,
+  AlertCircle,
   LucideProps
 } from 'lucide-react';
 
@@ -56,7 +65,16 @@ const iconMap = {
   Check,
   Briefcase,
   Award,
-  Terminal
+  Terminal,
+  Trophy,
+  Zap,
+  GraduationCap,
+  BookOpen,
+  Phone,
+  FileText,
+  Activity,
+  Download,
+  AlertCircle
 };
 
 export type IconName = keyof typeof iconMap;
