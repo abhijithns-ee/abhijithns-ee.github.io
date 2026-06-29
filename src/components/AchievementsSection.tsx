@@ -62,16 +62,18 @@ export default function AchievementsSection() {
         <div className="lg:col-span-1 bg-[#0d0d0d] border border-white/10 p-6 md:p-8 flex flex-col justify-between relative group">
           <div className="absolute top-0 left-0 w-[2px] h-0 bg-blue-500 group-hover:h-full transition-all duration-300" />
           
-          <div>
+          
+            <div>
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-12 h-12 rounded-none border border-white/10 p-1 bg-white/5">
-                <img
-                  src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=300&auto=format&fit=crop&q=80"
-                  alt="Abhijith N S"
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
+            <div className="w-12 h-12 rounded-none border border-white/10 p-1 bg-white/5">
+           <img
+             src="/profile.jpg"
+             alt="Abhijith N S Profile"
+             className="w-full h-full object-cover rounded-full"
+             />
+           </div>
+
+
               <div>
                 <h3 className="font-serif text-lg font-bold text-white leading-tight">{RESUME_INFO.fullName}</h3>
                 <p className="font-mono text-[9px] text-blue-400 uppercase tracking-wider mt-0.5">{RESUME_INFO.professionalTitle}</p>
