@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import DynamicIcon from './DynamicIcon';
 
 interface HomeSectionProps {
-  onNavigate: (section: 'home' | 'internships' | 'credentials' | 'contact') => void;
+  onNavigate: (section: 'home' | 'internships' | 'credentials' | 'achievements' | 'contact') => void;
 }
 
 export default function HomeSection({ onNavigate }: HomeSectionProps) {
