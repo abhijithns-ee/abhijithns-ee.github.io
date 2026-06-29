@@ -90,24 +90,63 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
       label: 'Merit Selection'
     }
   },
-  {
-    id: 'iot-smart-grid-award',
-    title: 'Best Tech Innovation Award - Smart Grid Prototype',
-    organization: 'Kerala Tech Innovation Hub',
+{
+    id: 'tata-elxsi-scholarship',
+    title: 'Tata Elxsi Scholar',
+    organization: 'Tata Elxsi',
     year: '2024',
-    category: 'Competition',
-    iconName: 'Zap',
-    description: 'Received the technical merit award for designing and prototyping a working micro-grid control model featuring automatic load shedding and real-time current/voltage tracking using responsive microcontrollers.',
+    category: 'Academic',
+    iconName: 'Award', // Ensure 'Award' matches your icon library (e.g., Lucide, FontAwesome)
+    description: 'Selected as one of the top 100 students across all polytechnic colleges through a rigorous multi-stage interview process. Received sustained financial, technical, and mentorship support to advance academic excellence.',
     highlights: [
-      'Engineered localized load-shedding algorithms',
-      'Integrated live current sensing feeds mapped to sound alarms',
-      'Presented model to state electrical board representatives'
+      'Top 100 selection among polytechnic students state-wide',
+      'Received comprehensive technical training and industry-grade mentorship',
+      'Leveraged scholarship support to transition successfully into higher engineering studies'
     ],
     metric: {
-      value: 'Winner',
-      label: 'Innovation Prize'
+      value: 'Top 100',
+      label: 'Scholarship Merit'
     }
   },
+  
+  {
+    id: 'prof-pi-varghese-award',
+    title: 'Best Student in Engineering Graphics',
+    organization: 'Prof. P. I. Varghese Endowment',
+    year: '2023',
+    category: 'Academic',
+    iconName: 'Award', 
+    description: 'Awarded for securing the top position in Engineering Graphics among polytechnic students across Kerala, based on the State Board of Technical Examinations results.',
+    highlights: [
+      'Ranked among the top 15 students state-wide in Engineering Graphics',
+      'Recognized for exceptional precision and technical drafting proficiency',
+      'Endowment award presented by the State Board of Technical Education'
+    ],
+    metric: {
+      value: 'Top 15',
+      label: 'State Ranking'
+    }
+  },
+
+  {
+    id: 'yip-campus-ambassador',
+    title: 'Campus Ambassador - Young Innovators Programme',
+    organization: 'K-DISC, Government of Kerala',
+    year: '2023',
+    category: 'Leadership',
+    iconName: 'Users', // Use 'Users' or 'Megaphone' to reflect advocacy
+    description: 'Selected as a campus ambassador for the Government of Kerala’s YIP initiative, fostering a culture of innovation and collaborative problem-solving among students.',
+    highlights: [
+      'Facilitated workshops to bridge the gap between academic theory and real-world problem solving',
+      'Acted as a liaison between student innovators and the K-DISC state-level platform',
+      'Promoted collaborative design thinking and social innovation projects on campus'
+    ],
+    metric: {
+      value: 'Ambassador',
+      label: 'K-DISC Initiative'
+    }
+  },
+
   {
     id: 'technical-seminar-distinction',
     title: 'Distinctive Merit for Seminar on Gas Insulated Substations',
@@ -122,6 +161,7 @@ export const ACHIEVEMENTS_DATA: AchievementItem[] = [
       'Received 100% evaluation scores from academic committee'
     ]
   },
+
   {
     id: 'robotic-club-liaison',
     title: 'Liaison Lead & Innovation Officer',
