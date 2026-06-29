@@ -20,20 +20,7 @@ export default function App() {
       if (stored) {
         setSavedMessages(JSON.parse(stored));
       } else {
-        // Pre-populate with one realistic welcome message from a lead recruiter
-        const welcomeMsg: ContactMessage = {
-          id: 'welcome-001',
-          senderName: 'Elena Rostova',
-          companyName: 'OpenAI (Product Architect Team)',
-          senderEmail: 'e.rostova@openai.com',
-          roleType: 'Full-time',
-          budgetRange: '$180k - $240k',
-          isUrgent: true,
-          message: 'Hi Abhijith! We came across your portfolio highlighting your solid Electrical & Electronics Engineering coursework at CET and product manufacturing experience at Sfo Technologies. We love engineers who bridge the gap between core hardware, power systems, and interactive digital interfaces. We’d love to chat about an upcoming Product Engineering support role.',
-          timestamp: '10:42 AM',
-        };
-        setSavedMessages([welcomeMsg]);
-        localStorage.setItem('recruiter_transmissions', JSON.stringify([welcomeMsg]));
+        setSavedMessages([]);
       }
     } catch (e) {
       console.error('Failed to read localStorage:', e);
