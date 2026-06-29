@@ -26,6 +26,7 @@ export default function AchievementsSection() {
     setTimeout(() => setShowCopiedText(false), 2500);
   };
 
+  console.log("Raw Data:", ACHIEVEMENTS_DATA);
   return (
     <motion.section
       initial={{ opacity: 0 }}
