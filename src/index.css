@@ -8,18 +8,21 @@
   --font-mono: "JetBrains Mono", monospace;
 }
 
-/* Custom scrollbar to keep it sleek */
+/* Sleek custom scrollbar for dark theme */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #0d0d0d; /* Matches your portfolio background */
 }
+
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 9999px;
+  background: #262626; /* Dark gray for a subtle look */
+  border-radius: 0px;  /* Keeps your portfolio's sharp, non-rounded aesthetic */
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: #404040; /* Slightly lighter gray on hover */
 }
